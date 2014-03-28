@@ -8,6 +8,7 @@ import stackoverflow.views
 urlpatterns = patterns('',
     # Examples:
     url(r'stackoverflow',stackoverflow.views.hello_world),
+    url(r'tests',stackoverflow.views.test_stackoverflow),
     #url(r'^$', 'skillstack.views.home', name='home'),
     #url(r'^skillstack/', include('skillstack.foo.urls')),
 
