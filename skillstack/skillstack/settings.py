@@ -120,11 +120,8 @@ INSTALLED_APPS = (
     'django.contrib.sites',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-<<<<<<< HEAD
     'taggit',
-=======
-    'taggit'
->>>>>>> 787e3b7a8bd6b325d6905521204268c3dfe4ba5b
+    'stackoverflow',
     # Uncomment the next line to enable the admin:
     # 'django.contrib.admin',
     # Uncomment the next line to enable admin documentation:
