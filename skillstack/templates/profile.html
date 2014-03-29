@@ -12,4 +12,28 @@
         </div>
     </div>
 </div>
+<div id="skills-container">
+    <div id="skills">
+        <div id="hd">
+            <h3> Skills </h3>
+        </div> 
+        <div id="skills-items">
+            <div id="skills-item-view">
+                <div id="profile-skills">
+                    <ul class="skills-section">
+                       {% for skill in skills %}
+                        <li class="endorse-item">
+                            <span class="skill-pill">
+                                <span class="endorse-item-name">
+                                    <a href="#" class="endorse-item-name-text">{{ skill.skill.name}}</a>
+                                </span>
+                            </span>
+                        </li>
+                       {% endfor %} 
+                    </ul>
+                </div>    
+            </div>
+        </div> 
+
+</div>
 {% include 'footer.html' %}

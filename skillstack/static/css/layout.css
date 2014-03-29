@@ -5862,3 +5862,99 @@ text-shadow: 0px 3px 8px #2a2a2a;
     height: 67px;
     width: 964px;
 }
+
+#post {
+    display: block;
+    float: right;
+    margin-top: -53px;
+    height: 36px;
+}
+
+#skills {
+    margin-top: 28px;
+    margin-bottom: 8px;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+#skills-item #skills-item-view {
+    padding-top: 0px;
+    padding-bottom: 20px;
+}
+
+.endorse-item {
+    margin-top: 0px;
+    margin-bottom: 6px;
+    overflow: hidden;
+}
+
+.skills-section .skill-pill {
+    float: left;
+    margin-top: 2px;
+    margin-bottom: 0px;
+}
+
+.skills-section {
+    margin-top: 20px;
+    margin-bottom: 0px;
+    list-style-type: none;
+}
+
+.skill-pill {
+    display: -moz-inline-stack;
+    display: inline-block;
+    vertical-align: middle;
+    zoom: 1;
+    overflow: hidden;
+    cursor: default;
+    white-space: nowrap;
+}
+
+a.endorse-item-name-text {
+    font-size: 13px;
+    line-height: 17px;
+    color: #333;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+#skills-container {
+    margin-left: 208px;
+    background: #f3f3f3;
+    border: 1px solid #d7d7d7;
+    width: 964px;
+}
+
+.responsive-nav {
+    background-color: #1a1a1a;
+    background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #1a1a1a), color-stop(100%, #303030));
+    background-image: -webkit-linear-gradient(top, #1a1a1a 0%,#303030 100%);
+    background-image: -moz-linear-gradient(top, #1a1a1a 0%,#303030 100%);
+    background-image: -o-linear-gradient(top, #1a1a1a 0%,#303030 100%);
+    background-image: linear-gradient(top, #1a1a1a 0%,#303030 100%);
+    z-index: 1;
+}
+
+#responsive-nav-scrollable {
+    position: static;
+    width: auto;
+    height: 30px;
+    width: 968px !important;
+    margin-top: -22px;
+    margin-left: 1px;
+
+}
+
+.wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    width: 974px;
+}
+.nav {
+    float: left;
+}
+
+.nav-item {
+    display: inline;
+    list-style-type: none;
+    padding: 20px;
+}
