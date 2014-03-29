@@ -5,9 +5,11 @@ linkedin:
   # Use your developer token and secret to instantiate access token object
   user_token : 7edc399b-88a0-4089-be04-f7f39ddd84da
   user_secret : f5a6aa6c-bcc9-4a8f-8a78-52aa09f779c5
+  request_token_url : https://api.linkedin.com/uas/oauth/requestToken
+  access_token_url : https://api.linkedin.com/uas/oauth/accessToken
+  redirect_uri : www.skillstack.in
   # apis
   skills : http://api.linkedin.com/v1/people/~:(skills)?format=json
-  redirect_uri : www.skillstack.in
 stackexchange:
   client_id: 2823
   client_secret: 0t6XUO6P0o2c*IMiTRyq1A((
