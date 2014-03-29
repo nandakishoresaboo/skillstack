@@ -1,11 +1,14 @@
 linkedin:
   # Use your API key and secret to instantiate consumer object
-  consumer_key : k5dropmvdua8
-  consumer_secret : 28lEolfpDG2Q0C7w
+  consumer_key : 75ewdope4hrnc5
+  consumer_secret : BaiTIaOiPVAQRNYy
   # Use your developer token and secret to instantiate access token object
-  user_token : 148ddc0c-6886-48fa-8333-0381a2ea2e82
-  user_secret : eb11a1e8-25b2-4810-ab48-f7d255b9574f
+  user_token : 7edc399b-88a0-4089-be04-f7f39ddd84da
+  user_secret : f5a6aa6c-bcc9-4a8f-8a78-52aa09f779c5
   # apis
+  #skills : http://api.linkedin.com/v1/people/id={{0}}:(skills)?format=json
   skills : http://api.linkedin.com/v1/people/~:(skills)?format=json
+  #skills : http://api.linkedin.com/v1/people/~:(skills)?format=json
   #skills : http://api.linkedin.com/v1/people/~:(skills)
+  redirect_uri : www.skillstack.in
 stackexchange:
