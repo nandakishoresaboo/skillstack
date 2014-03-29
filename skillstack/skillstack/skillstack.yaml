@@ -9,3 +9,6 @@ linkedin:
   skills : http://api.linkedin.com/v1/people/~:(skills)?format=json
   redirect_uri : www.skillstack.in
 stackexchange:
+  client_id: 2823
+  client_secret: 0t6XUO6P0o2c*IMiTRyq1A((
+  key: rLN0UCWnMkcML15DtfJafw((

@@ -1,6 +1,47 @@
 <html>
- <head><title>Stack Overflow</title></head>
- <body>
+ <head>
+   <title>Stack Overflow</title>
+   <script type='text/javascript' src='https://api.stackexchange.com/js/2.0/all.js'></script>
+   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+   <script type="text/javascript">
+   </script>
+<script type='text/javascript'>
+$(function(){
+alert("started ...");
+SE.init({ 
+    clientId: 2823, 
+    key: 'rLN0UCWnMkcML15DtfJafw((', 
+    channelUrl: 'http://127.0.0.1:8000/blank_page',
+    complete: function(data) { 
+        alert("done!");
+        $('#login-button')
+            .removeAttr('disabled')
+            .text('Run Example With Version '+ data.version); 
+    }
+});
+alert("middle");
+// Attach click handler to login button
+
+$('#login-button').click(function() {
+     SE.authenticate({
+        success: function(data) { 
+            alert(data);
+        //    alert('User Authorized with account id = ' +  data.networkUsers[0].account_id + ', got access token = ' + data.accessToken ); 
+        },
+        error: function(data) {
+            alert(data); 
+          //  alert('An error occurred:\n' + data.errorName + '\n' + data.errorMessage); 
+        },
+        networkUsers: true
+    });
+    alert('done-2');
+});
+});
+</script>
+ </head>
+ 
+<body>
    <h1>Welcome to stack overflow !</h1>
+    <button id="login-button" style="width:200px;height:30px;"></button>
  </body>
 </html>
