@@ -1,4 +1,5 @@
 from django.conf.urls import patterns, include, url
+from django.conf import settings
 import stackoverflow.views
 
 # Uncomment the next two lines to enable the admin:
@@ -6,7 +7,9 @@ import stackoverflow.views
 # admin.autodiscover()
 
 urlpatterns = patterns('',
-    # Examples:
+    r'^static/(?P<path>.*)$',
+        'django.views.static.serve',
+        {'document_root': 'static'}
     url(r'stackoverflow',stackoverflow.views.hello_world),
     url(r'tests',stackoverflow.views.test_stackoverflow),
     #url(r'^$', 'skillstack.views.home', name='home'),
